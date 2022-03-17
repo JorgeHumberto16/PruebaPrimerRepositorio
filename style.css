@@ -1,0 +1,21 @@
+*{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+div{
+    color: blue;
+}
+a:hover{
+color: violet;
+}
+a:focus{
+    color: aquamarine;
+}
+div p::first-letter{
+    color: red;
+}
+p::after{
+    content: " pseudo elemento xd";
+}
